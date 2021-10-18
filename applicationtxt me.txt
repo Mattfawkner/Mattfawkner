@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf >
+    <!--be careful when change this-->
+    <version>20200623</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_phonemanager_trash_scan_path</filter-name>
+    <module name="WeChat">
+        <path key="WeChat_Temp_Cache">
+            <item>/Tencent/MicroMsg/*/image</item>
+            <item>/Tencent/MicroMsg/*/brandicon</item>
+            <item>/Tencent/MicroMsg/*/avatar</item>
+            <item>/Tencent/MicroMsg/*/favorite</item>
+            <item>/Tencent/MicroMsg/*/openapi</item>
+            <item>/Tencent/MicroMsg/xlog</item>
+            <item>/Tencent/MicroMsg/cache</item>
+            <item>/Tencent/MicroMsg/wallet</item>
+            <item>/Tencent/MicroMsg/sns_ad_landingpages</item>
+            <item>/Tencent/MicroMsg/handler</item>
+            <item>/Tencent/MicroMsg/diskcache</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/image</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/brandicon</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/avatar</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/favorite</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/openapi</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/xlog</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/cache</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/wallet</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/sns_ad_landingpages</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/handler</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/diskcache</item>
+        </path>
+
+        <path key="WeChat_Small_Program">
+            <item>/Tencent/MicroMsg/wxacache</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mm/MicroMsg/wxacache</item>
+        </path>
+
+        <path key="WeChat_Friend_Image">
+            <item>/Tencent/MicroMsg/*/sns</item>
+            <item>/Tencent/MicroMsg/*/sfs</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/sns</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/sfs</item>
+        </path>
+
+        <path key="WeChat_Friend_Video">
+            <item>/Tencent/MicroMsg/*/sns</item>
+            <item>/Tencent/MicroMsg/*/sfs</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/sns</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/sfs</item>
+        </path>
+
+        <path key="Wechat_Chat_Image">
+            <item>/Tencent/MicroMsg/*/image2</item>
+            <item>/Tencent/MicroMsg/*/video</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/image2</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/video</item>
+        </path>
+
+        <path key="Wechat_Chat_Video">
+            <item>/Tencent/MicroMsg/*/video</item>
+
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/video</item>
+        </path>
+
+        <path key="WeChat_Fav_Expression">
+            <item>/Tencent/MicroMsg/*/emoji</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/emoji</item>
+        </path>
+
+        <path key="Wechat_Voice">
+            <item>/Tencent/MicroMsg/*/voice2</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mm/MicroMsg/*/voice2</item>
+        </path>
+
+        <path key="Wechat_Download">
+            <item>/Tencent/MicroMsg/download</item>
+
+            <!--support android R-->
+            <item>/Download/WeiXin</item>
+            <item>/Android/data/com.tencent.mm/MicroMsg/download</item>
+        </path>
+
+    </module>
+
+    <moudle name="QQ">
+        <path key="QQ_Cache">
+            <item>/Tencent/MobileQQ/iar</item>
+            <item>/Tencent/MobileQQ/.signaturetemplate</item>
+            <item>/Tencent/MobileQQ/status_ic</item>
+            <item>/Tencent/MobileQQ/foward_urldrawable</item>
+            <item>/Tencent/MobileQQ/webviewcheck</item>
+            <item>/Tencent/MobileQQ/log</item>
+            <item>/Tencent/MobileQQ/.gift</item>
+            <item>/Tencent/MobileQQ/shortvideo/thumbs</item>
+            <item>/Tencent/MobileQQ/head/.nomedia</item>
+            <item>/Tencent/MobileQQ/.pendant</item>
+            <item>/Tencent/MobileQQ/data/wifi</item>
+            <item>/Tencent/MobileQQ/thumb</item>
+            <item>/Tencent/MobileQQ/thumb2</item>
+            <item>/Tencent/MobileQQ/ar_model</item>
+            <item>/Tencent/MobileQQ/bless</item>
+            <item>/Tencent/MobileQQ/early/qq.android.qavgesture</item>
+            <item>/Tencent/MobileQQ/font_info/font_local.cfg</item>
+            <item>/Tencent/MobileQQ/pubaccount</item>
+            <item>/Tencent/MobileQQ/QWallet/.tmp</item>
+            <item>/Tencent/MobileQQ/emoji/emojis</item>
+            <item>/Tencent/MobileQQ/emojiindex</item>
+            <item>/Tencent/QQfile_recv/.trooptmp</item>
+            <item>/Tencent/QWallet</item>
+            <item>/Tencent/beacon</item>
+            <item>/Tencent/TGLog</item>
+            <item>/Tencent/TGClub/img</item>
+            <item>/Tencent/MidasPay</item>
+            <item>/Tencent/blob/mqq</item>
+            <item>/Tencent/wtlogin/com.tecent.mobileqq</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/iar</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.signaturetemplate</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/status_ic</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/foward_urldrawable</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/webviewcheck</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/log</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.gift</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/shortvideo/thumbs</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/head/.nomedia</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.pendant</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/data/wifi</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/thumb</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/thumb2</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/ar_model</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/bless</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/early/qq.android.qavgesture</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/font_info/font_local.cfg</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/pubaccount</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/QWallet/.tmp</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/emoji/emojis</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/emojiindex</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/.trooptmp</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/QWallet</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/beacon</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/TGLog</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/TGClub/img</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MidasPay</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/blob/mqq</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/wtlogin/com.tecent.mobileqq</item>
+            <item>/Android/data/com.tencent.mobileqq/qzone/avatar</item>
+            <item>/Android/data/com.tencent.mobileqq/qzone/zip_cache</item>
+            <item>/Android/data/com.tencent.mobileqq/files/.info</item>
+            <item>/Android/data/com.tencent.mobileqq/files/tbslog</item>
+            <item>/Android/data/com.tencent.mobileqq/cache/temp_cache</item>
+            <item>/Android/data/com.qzone/cache</item>
+            <item>/QQSecureDownload/.CacheCEImage</item>
+            <item>/QQSecureDownload/mfcache</item>
+            <item>/qmt</item>
+        </path>
+
+        <path key="QQ_Chat_Image">
+            <item>/Tencent/MobileQQ/diskcache</item>
+            <item>/Tencent/MobileQQ/chatpic</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/diskcache</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/chatpic</item>
+        </path>
+
+        <path key="QQ_Save_Image">
+            <item>/Tencent/QQ_Images</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mobileqq/Tencent/QQ_Images</item>
+            <item>/Pictures/QQ</item>
+        </path>
+
+        <path key="QQ_Down_Expression">
+            <item>/Tencent/MobileQQ/.emotionsm</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/.emotionsm</item>
+        </path>
+
+        <path key="QQ_Save_Expression">
+            <item>/Tencent/QQ_Favorite</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mobileqq/Tencent/QQ_Favorite</item>
+        </path>
+
+        <path key="QQ_Chat_Video">
+            <item>/Tencent/MobileQQ/shortvideo</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/shortvideo</item>
+            <item>/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv</item>
+            <item>/DCIM/QQVideo</item>
+            <item>/Pictures/QQ</item>
+        </path>
+
+        <path key="QQ_Voice">
+            <item>/Tencent/MobileQQ/*/ptt</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/*/ptt</item>
+        </path>
+
+        <path key="QQ_Document">
+            <item>/Tencent/QQfile_recv</item>
+
+            <!--support android R-->
+            <item>/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv</item>
+        </path>
+    </moudle>
+
+
+    <moudle name="WhatsApp">
+        <path key="Whatsapp_Cache">
+            <item>/Whatsapp/Databases</item>
+            <item>/Whatsapp/Backups</item>
+            <item>/Whatsapp/.Trash</item>
+            <item>/Whatsapp/.Shared</item>
+            <item>/Whatsapp/Media/Whatsapp Animated Gifs</item>
+            <item>/Whatsapp/Media/Whatsapp Profile Photos</item>
+            <item>/Android/data/com.whatsapp/cache</item>
+        </path>
+
+        <path key="Whatsapp_Image">
+            <item>/Whatsapp/Media/Whatsapp Images</item>
+        </path>
+
+        <path key="Whatsapp_Video">
+            <item>/Whatsapp/Media/Whatsapp video</item>
+        </path>
+
+        <path key="Whatsapp_Audio">
+            <item>/Whatsapp/Media/Whatsapp Audio</item>
+        </path>
+
+        <path key="Whatsapp_Voice">
+            <item>/Whatsapp/Media/Whatsapp Voice Notes</item>
+        </path>
+
+        <path key="Whatsapp_Document">
+            <item>/Whatsapp/Media/Whatsapp Documents</item>
+        </path>
+
+    </moudle>
+</filter-conf>
